@@ -1,0 +1,57 @@
+﻿:root {
+  --color-ice-silver: #DDE3E8;
+  --color-deep-aubergine: #3A0F34;
+  --color-marigold: #EAAA00;
+  --background: #DDE3E8;
+  --foreground: #3A0F34;
+  --accent: #EAAA00;
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-code: 'JetBrains Mono', monospace;
+
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--foreground);
+  background: var(--background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+main {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
