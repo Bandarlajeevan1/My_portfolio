@@ -56,7 +56,7 @@ const projects = [
     name: 'Resume Analyzer',
     summary: 'An academic project for analyzing resumes against job requirements and highlighting match quality.',
     stack: ['HTML', 'CSS', 'React.js', 'Python', 'NLP', 'MongoDB'],
-    repository: 'https://github.com/Bandarlajeevan1/AI-based-resume',
+    repository: 'https://github.com/Bandarlajeevan1/AI-based-resume/blob/main/project-bolt-sb1-btwtoyrk.zip',
   },
 ]
 
